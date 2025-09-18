@@ -6,7 +6,7 @@ const Home = () => {
       
       <nav className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-6 py-4 bg-primary text-secondary shadow-md">
         <div className="font-bold text-xl">QuickTickets</div>
-        <ul className="flex gap-6">
+        <ul className="flex gap-6 md:flex hidden">
           <li><a href="#home" className="hover:text-accent">Home</a></li>
           <li><a href="#about" className="hover:text-accent">About</a></li>
           <li><a href="#features" className="hover:text-accent">Features</a></li>
